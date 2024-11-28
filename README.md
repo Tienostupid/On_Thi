@@ -362,13 +362,65 @@ Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các 
    - **Users**: Quản lý tài khoản người dùng.
    - **Tools**: Các công cụ bổ trợ như sao lưu, nhập xuất dữ liệu.
 
-## **Thực hành và bài tập:**
-   - Tạo một website blog cá nhân hoặc website doanh nghiệp cơ bản.
-   - Yêu cầu: Tìm và cài đặt một theme phù hợp, tạo ít nhất 3 bài viết và một trang tĩnh (liên hệ hoặc giới thiệu).
-
----
-
 **Tài liệu đọc thêm**:
 - [Learn WordPress](https://learn.wordpress.org/)
 - [WordPress Documentation](https://wordpress.org/documentation/)
+# Tóm tắt Chương 9: Thuật Toán Nội Dung
+
+## 1. **Khái niệm thuật toán**
+   - Thuật toán là một tập hợp hữu hạn các chỉ thị rõ ràng để hoàn tất một số công việc từ trạng thái ban đầu.
+   - Ví dụ: Giải phương trình bậc nhất `ax + b = c`.
+
+   ### Đặc trưng của thuật toán:
+   - **Đầu vào, ra**: Thuật toán phải rõ ràng về dữ liệu đầu vào và đầu ra.
+   - **Tính chính xác**: Các bước phải rõ ràng, chính xác, không mơ hồ.
+   - **Tính khách quan**: Đảm bảo người đọc hiểu thuật toán một cách nhất quán.
+   - **Tính phổ dụng**: Giải quyết các vấn đề thực tế.
+   - **Tính hữu hạn**: Các bước trong thuật toán phải hữu hạn.
+
+## 2. **Biểu diễn thuật toán**
+   - **Phương pháp 1: Liệt kê**: Dùng ngôn ngữ tự nhiên để liệt kê từng bước.
+     - Ví dụ: Giải phương trình bậc hai `ax² + bx + c = 0`.
+   
+   - **Phương pháp 2: Sử dụng sơ đồ khối (Flowchart)**:
+     - **Khối thao tác**: Biểu diễn bằng hình chữ nhật, chứa các lệnh cần thực hiện.
+     - **Khối điều kiện**: Biểu diễn bằng hình thoi, chứa các điều kiện kiểm tra.
+     - **Khối bắt đầu, kết thúc**: Biểu diễn bằng hình elip, đánh dấu điểm bắt đầu hoặc kết thúc.
+     - **Cung**: Đoạn thẳng có hướng, chỉ đường đi của thuật toán.
+
+## 3. **Độ phức tạp của thuật toán**
+   - **Đánh giá độ phức tạp**: Phụ thuộc vào thời gian chạy thuật toán, thường tính theo kích thước dữ liệu đầu vào `n`.
+     - **Cận trên** (O): Số phép toán cần trong trường hợp xấu nhất.
+     - **Cận dưới** (Ω): Số phép toán cần trong trường hợp tốt nhất.
+     - **Trung bình** (Θ): Số phép toán cần trong trường hợp trung bình.
+
+   ### Các hàm đánh giá độ phức tạp:
+   - **O(1)**: Độ phức tạp hằng số (không phụ thuộc vào dữ liệu đầu vào).
+   - **O(n)**: Độ phức tạp tuyến tính (tỷ lệ thuận với dữ liệu đầu vào).
+   - **O(n^2)**: Độ phức tạp đa thức bậc 2.
+   - **O(log n)**: Độ phức tạp logarit.
+   - **O(2^n)**: Độ phức tạp hàm mũ.
+
+   ### Các quy tắc xác định độ phức tạp:
+   - **Quy tắc lấy cực đại**: `T(n) = O(f(n) + g(n)) = O(max{f(n), g(n)})`.
+   - **Quy tắc cộng**: `T(n) = O(f(n) + g(n))`.
+   - **Quy tắc nhân**: Nếu `T1 = O(f(n))` và `T2 = O(g(n))`, thì `T1(n) + T2(n) = O(f(n) + g(n))`.
+
+## 4. **Một số thuật toán thường gặp**
+   - **Thuật toán đệ quy**: Thuật toán gọi chính nó để giải quyết bài toán nhỏ hơn.
+   - **Thuật toán quy hoạch động**: Sử dụng để giải quyết các bài toán tối ưu phức tạp bằng cách chia bài toán thành các bài toán con.
+   - **Thuật toán phân tán**: Các thuật toán xử lý trên nhiều hệ thống phân tán.
+   - **Thuật toán song song**: Các thuật toán có thể thực thi đồng thời trên nhiều máy tính.
+   - **Thuật toán gần đúng**: Các thuật toán cho kết quả gần đúng nhưng không hoàn toàn chính xác.
+
+### Các bước phát triển thuật toán:
+1. Định nghĩa vấn đề.
+2. Phát triển mô hình.
+3. Đặc điểm kỹ thuật của thuật toán.
+4. Thiết kế thuật toán.
+5. Kiểm tra tính đúng đắn của thuật toán.
+6. Phân tích thuật toán.
+7. Thực hiện thuật toán.
+8. Thử nghiệm chương trình.
+9. Đánh giá ưu điểm và nhược điểm của thuật toán.
 
