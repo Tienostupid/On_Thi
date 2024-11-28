@@ -1,7 +1,7 @@
 # NhapMonCNTT
-
+---
 # Nội dung học phần  
-
+---
 # Chương 1 Giới thiệu về máy tính
 
 ### 1.Máy tính là gì?
@@ -114,7 +114,7 @@
 | **Trừ số dương**        | - Chuyển số bị trừ thành số âm và thực hiện phép cộng. <br> - Nếu không có bit tràn, kết quả dương. | 8<sub>10</sub> - 3<sub>10</sub>: <br> 1000<sub>2</sub> + 1101<sub>2</sub> = 0101<sub>2</sub> (5<sub>10</sub>) |
 | **Trừ số âm**           | - Chuyển số âm thành số dương và thực hiện phép cộng. <br> - Kết quả có thể là dương hoặc âm. | -5<sub>10</sub> - 3<sub>10</sub>: <br> 1011<sub>2</sub> + 0011<sub>2</sub> = 1000<sub>2</sub> (-8<sub>10</sub>) |
 | **Trừ số trái dấu**     | - Nếu một số dương và một số âm, cộng với bù 2 của số âm. <br> - Kết quả có thể dương hoặc âm. | 5<sub>10</sub> - (-3)<sub>10</sub>: <br> 0101<sub>2</sub> + 0011<sub>2</sub> = 1000<sub>2</sub> (8<sub>10</sub>) |
-
+---
 # Chương 3 Sử Dụng AI
 ### 1.Khái niệm cơ bản
 - Tập tin: Là đơn vị lưu trữ dữ liệu với các định dạng khác nhau, như văn bản, hình ảnh, âm thanh, và có phần mở rộng (ví dụ: .pdf, .txt).
@@ -263,7 +263,7 @@
 | 751         | rwxr-x--x         |
 | 775         | rwxrwxr-x         |
 | 777         | rwxrwxrwx         |
-
+---
 # Chương 5 Github
 ### 1. **Kiểm soát phiên bản**
    - Khái niệm về kiểm soát phiên bản và các vấn đề liên quan.
@@ -312,7 +312,7 @@
 Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các thay đổi, khôi phục phiên bản cũ và làm việc hiệu quả hơn trong nhóm. Đừng quên thực hành tốt các thao tác với Git để tránh gặp phải các vấn đề thường gặp.
 
 # Chương 6
-
+---
 # Chương 7: Giới thiệu tổng quan về WordPress
 
 1. **WordPress là gì?**
@@ -335,8 +335,8 @@ Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các 
    - Miễn phí, dễ sử dụng, hỗ trợ đa ngôn ngữ.
    - Tính năng tối ưu SEO và cộng đồng người sử dụng mạnh mẽ.
    - Hỗ trợ nhiều theme và plugin giúp tùy chỉnh website dễ dàng.
-
-## **Chương 8: Tạo website mới với WordPress**
+---
+## Chương 8: Tạo website mới với WordPress
 
 1. **Tạo website với WordPress.com:**
    - **Tạo tài khoản**: Người dùng đăng ký tài khoản mới và xác nhận qua email.
@@ -365,7 +365,8 @@ Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các 
 **Tài liệu đọc thêm**:
 - [Learn WordPress](https://learn.wordpress.org/)
 - [WordPress Documentation](https://wordpress.org/documentation/)
-# Tóm tắt Chương 9: Thuật Toán Nội Dung
+---
+# Chương 9: Thuật Toán Nội Dung
 
 ## 1. **Khái niệm thuật toán**
    - Thuật toán là một tập hợp hữu hạn các chỉ thị rõ ràng để hoàn tất một số công việc từ trạng thái ban đầu.
@@ -423,4 +424,75 @@ Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các 
 7. Thực hiện thuật toán.
 8. Thử nghiệm chương trình.
 9. Đánh giá ưu điểm và nhược điểm của thuật toán.
+---
+# Chương 10: Python
 
+## 1. Chương trình máy tính (Program)
+Chương trình máy tính là một chuỗi các câu lệnh được viết trong một ngôn ngữ lập trình, theo một cú pháp xác định. Mỗi câu lệnh yêu cầu máy tính thực hiện một nhiệm vụ nhất định như nhập liệu (input), xuất dữ liệu (output), hoặc thực hiện các phép toán. Các câu lệnh này được thực hiện theo thứ tự đã được lập trình sẵn, gọi là **giải thuật**.
+
+## 2. Lập trình
+Lập trình là quá trình tạo ra chương trình máy tính, sử dụng cú pháp và từ khóa của một ngôn ngữ lập trình để viết các câu lệnh giải quyết vấn đề cụ thể. Quá trình lập trình bao gồm:
+1. **Thiết kế thuật toán**: Xây dựng các bước giải quyết vấn đề.
+2. **Viết mã (coding)**: Biến đổi thuật toán thành các câu lệnh mà máy tính có thể hiểu được.
+3. **Biên dịch mã (compile)**: Chuyển mã nguồn thành mã máy để thực thi.
+4. **Kiểm tra và sửa lỗi**: Đảm bảo chương trình hoạt động đúng.
+
+## 3. Ngôn ngữ lập trình Python
+Python là một ngôn ngữ lập trình phổ biến với nhiều ứng dụng:
+- **Khoa học tính toán**: numpy, scipy, matplotlib
+- **Học máy và AI**: scikit-learn, tensorflow, pytorch
+- **Xử lý dữ liệu lớn**: pyspark, bigquery
+- **Phát triển web**: django, flask
+- **Phát triển phần mềm** và **kịch bản hệ thống**
+
+## 4. Các bước cơ bản khi thực thi chương trình Python
+1. **Tạo thư mục làm việc**: Tạo thư mục "work" để chứa các file chương trình.
+2. **Viết mã nguồn**: Sử dụng Notepad, Sublime Text, hoặc vim để viết mã Python (ví dụ: `helloworld.py`).
+3. **Chạy chương trình**: Sử dụng Anaconda Prompt hoặc Terminal để chạy chương trình Python.
+
+## 5. Các kiểu dữ liệu cơ bản trong Python
+1. **Biến**: Là các vùng nhớ lưu trữ giá trị trong chương trình. Python tự động xác định kiểu của biến khi gán giá trị.
+2. **Chuỗi (String)**: Một chuỗi ký tự, có thể truy cập thông qua chỉ số. String là bất biến (immutable). Các thao tác cơ bản với chuỗi bao gồm:
+   - **Nối chuỗi**: Dùng toán tử `+`
+   - **Lặp chuỗi**: Nhân chuỗi với số nguyên
+   - **So sánh chuỗi**: Dùng toán tử `==` hoặc `!=`
+   - **Xác định chiều dài**: Dùng `len(s)`
+   - **Các phương thức quan trọng**: `split()`, `upper()`, `lower()`, `strip()`, `replace()`
+
+## 6. Cấu trúc điều khiển (Flow Control)
+1. **Câu lệnh điều kiện (if, elif, else)**: Cho phép thực hiện các lệnh dựa trên điều kiện.
+2. **Vòng lặp**:
+   - **Vòng lặp `for`**: Dùng để lặp qua các đối tượng có thể lặp (iterables).
+   - **Vòng lặp `while`**: Dùng khi muốn lặp cho đến khi điều kiện không còn đúng.
+
+## 7. Thực hành lập trình
+1. **Nhập liệu từ bàn phím**: Kiểm tra xem số nhập vào có phải là số dương không, và tính căn bậc hai nếu đúng.
+2. **Ép kiểu (type casting)**: Làm việc với các kiểu dữ liệu khác nhau trong Python.
+
+## 8. Bảng tóm tắt các cấu trúc điều khiển và thao tác cơ bản
+
+| **Cấu trúc**           | **Mô tả**                                                                 |
+|------------------------|---------------------------------------------------------------------------|
+| **if**                 | Kiểm tra điều kiện và thực thi câu lệnh nếu điều kiện đúng.               |
+| **if-else**            | Kiểm tra điều kiện, nếu đúng thực thi một câu lệnh, nếu sai thực thi câu lệnh khác. |
+| **if-elif-else**       | Kiểm tra nhiều điều kiện, thực thi câu lệnh tương ứng với điều kiện đúng đầu tiên. |
+| **for**                | Lặp qua các phần tử trong một chuỗi, danh sách, tuple, dictionary, v.v.    |
+| **while**              | Lặp lại một đoạn mã cho đến khi điều kiện không còn đúng.                 |
+
+## 9. Code ví dụ trong Python
+```python
+# Câu lệnh if-else
+number = float(input("Nhập một số: "))
+if number > 0:
+    print(f"Căn bậc hai của {number} là {number ** 0.5}")
+else:
+    print("Số bạn nhập không phải là số dương.")
+
+# Vòng lặp for
+for i in range(1, 6):
+    print(i)
+
+# Xử lý chuỗi
+s = "Python Programming"
+print(s.upper())  # Chuyển thành chữ hoa
+print(s.split())   # Tách chuỗi theo khoảng trắng
