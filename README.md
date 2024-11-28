@@ -310,3 +310,65 @@
 
 ### Kết luận
 Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các thay đổi, khôi phục phiên bản cũ và làm việc hiệu quả hơn trong nhóm. Đừng quên thực hành tốt các thao tác với Git để tránh gặp phải các vấn đề thường gặp.
+
+# Chương 6
+
+# Chương 7: Giới thiệu tổng quan về WordPress
+
+1. **WordPress là gì?**
+   - WordPress là một hệ quản trị nội dung (CMS) mã nguồn mở, sử dụng ngôn ngữ PHP và cơ sở dữ liệu MySQL.
+   - Được sử dụng rộng rãi để xây dựng các loại website như blog, doanh nghiệp, và thương mại điện tử.
+   - Phát triển liên tục và có cộng đồng người sử dụng lớn, với hơn 810 triệu trang web sử dụng WordPress vào năm 2024.
+
+2. **Lịch sử phát triển WordPress:**
+   - Được sáng lập vào năm 2003 bởi Matt Mullenweg và Mike Little.
+   - Các mốc quan trọng: 
+     - 2003: WordPress 0.7, cung cấp các tính năng cơ bản cho blog.
+     - 2004: WordPress 1.2, hỗ trợ plugin và tùy chỉnh giao diện.
+     - 2018: WordPress 5.0, với trình chỉnh sửa khối.
+
+3. **WordPress.com và WordPress.org:**
+   - **WordPress.com**: Nền tảng trực tuyến, lưu trữ website trên máy chủ của WordPress.
+   - **WordPress.org**: Dự án mã nguồn mở, cho phép người dùng tự lưu trữ và tùy chỉnh website.
+
+4. **Các đặc điểm nổi bật của WordPress:**
+   - Miễn phí, dễ sử dụng, hỗ trợ đa ngôn ngữ.
+   - Tính năng tối ưu SEO và cộng đồng người sử dụng mạnh mẽ.
+   - Hỗ trợ nhiều theme và plugin giúp tùy chỉnh website dễ dàng.
+
+## **Chương 8: Tạo website mới với WordPress**
+
+1. **Tạo website với WordPress.com:**
+   - **Tạo tài khoản**: Người dùng đăng ký tài khoản mới và xác nhận qua email.
+   - **Tạo website mới**: Chọn tên miền (có phí hoặc miễn phí), chọn gói dịch vụ (miễn phí hoặc trả phí).
+   - **Chọn giao diện**: Dựa trên lĩnh vực website, hệ thống gợi ý các giao diện phù hợp.
+   - **Xem website**: Sau khi tạo xong, có thể mở và kiểm tra website.
+
+2. **Tạo website với WordPress.org (Tự cài đặt):**
+   - **Cài đặt server ảo với XAMPP**: Sử dụng phần mềm XAMPP để tạo máy chủ web ảo cho WordPress.
+   - **Khởi động Apache và MySQL**: Bật các dịch vụ Apache và MySQL để vận hành máy chủ.
+   - **Tạo cơ sở dữ liệu**: Tạo cơ sở dữ liệu mới cho WordPress trong phpMyAdmin.
+   - **Tải và cài đặt WordPress**: Tải về bản cài đặt WordPress, giải nén và cài đặt trên server cục bộ.
+   - **Thiết lập WordPress**: Cung cấp thông tin kết nối cơ sở dữ liệu, cài đặt tên website, mật khẩu admin, và email.
+
+3. **Các thành phần cơ bản của WordPress:**
+   - **Dashboard**: Giao diện làm việc chính.
+   - **Settings**: Các cài đặt cấu hình cho website.
+   - **Posts**: Quản lý bài viết, thêm bài mới, phân loại bài viết.
+   - **Media**: Quản lý các tài nguyên đa phương tiện (hình ảnh, video, tệp tin).
+   - **Pages**: Quản lý các trang tĩnh trên website.
+   - **Appearance**: Quản lý giao diện và theme.
+   - **Plugins**: Cài đặt và quản lý các tiện ích mở rộng cho website.
+   - **Users**: Quản lý tài khoản người dùng.
+   - **Tools**: Các công cụ bổ trợ như sao lưu, nhập xuất dữ liệu.
+
+## **Thực hành và bài tập:**
+   - Tạo một website blog cá nhân hoặc website doanh nghiệp cơ bản.
+   - Yêu cầu: Tìm và cài đặt một theme phù hợp, tạo ít nhất 3 bài viết và một trang tĩnh (liên hệ hoặc giới thiệu).
+
+---
+
+**Tài liệu đọc thêm**:
+- [Learn WordPress](https://learn.wordpress.org/)
+- [WordPress Documentation](https://wordpress.org/documentation/)
+
