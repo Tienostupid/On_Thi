@@ -2,7 +2,7 @@
 ---
 # Nội dung học phần  
 ---
-# Chương 1 Giới thiệu về máy tính
+# Chương 1: Giới thiệu về máy tính
 
 ### 1.Máy tính là gì?
 - Thiết bị điện tử có khả năng thao tác thông tin và dữ liệu; lưu trữ, truy xuất và xử lý dữ liệu.
@@ -55,9 +55,9 @@
 **Bộ nhớ:** Chức năng lưu trữ dữ liệu và chương trình, bao gồm bộ nhớ trong (RAM, ROM) và bộ nhớ ngoài (HDD, SSD).
 
 **Hệ thống vào ra:** Kết nối thông tin giữa máy tính và thế giới bên ngoài; bao gồm các mô-đun điều khiển vào ra và thiết bị ngoại vi.
+---
 
-
-# Chương 2 Thông Tin Trong Máy Tính
+# Chương 2: Thông Tin Trong Máy Tính
  ### 1.Biểu diễn thông tin trong máy tính:
 
 **Bit và Byte:**
@@ -115,7 +115,7 @@
 | **Trừ số âm**           | - Chuyển số âm thành số dương và thực hiện phép cộng. <br> - Kết quả có thể là dương hoặc âm. | -5<sub>10</sub> - 3<sub>10</sub>: <br> 1011<sub>2</sub> + 0011<sub>2</sub> = 1000<sub>2</sub> (-8<sub>10</sub>) |
 | **Trừ số trái dấu**     | - Nếu một số dương và một số âm, cộng với bù 2 của số âm. <br> - Kết quả có thể dương hoặc âm. | 5<sub>10</sub> - (-3)<sub>10</sub>: <br> 0101<sub>2</sub> + 0011<sub>2</sub> = 1000<sub>2</sub> (8<sub>10</sub>) |
 ---
-# Chương 3 Sử Dụng AI
+# Chương 3: Sử Dụng AI
 ### 1.Khái niệm cơ bản
 - Tập tin: Là đơn vị lưu trữ dữ liệu với các định dạng khác nhau, như văn bản, hình ảnh, âm thanh, và có phần mở rộng (ví dụ: .pdf, .txt).
 - Thư mục: Là đơn vị logic để tổ chức và nhóm các tập tin, có thể chứa nhiều thư mục con.
@@ -139,7 +139,8 @@
 - Ứng dụng ChatGPT trong học tập để tóm tắt tài liệu, giải thích khái niệm và hỗ trợ lập trình.
 ### 4.Đạo đức sử dụng AI
 - Cần sử dụng ChatGPT một cách hợp lý và chịu trách nhiệm với nội dung được tạo ra, kiểm chứng thông tin từ nhiều nguồn.
-# Chương 4 Linux
+---
+# Chương 4: Linux
 ### 1. Giới thiệu về Linux
 ***Unix:***
 - Phát triển năm 1969 bởi Dennis Ritchie và Ken Thompson tại Bell Labs.
@@ -264,7 +265,7 @@
 | 775         | rwxrwxr-x         |
 | 777         | rwxrwxrwx         |
 ---
-# Chương 5 Github
+# Chương 5: Github
 ### 1. **Kiểm soát phiên bản**
    - Khái niệm về kiểm soát phiên bản và các vấn đề liên quan.
    - Cách sử dụng Git và GitHub cho việc quản lý mã nguồn.
@@ -310,8 +311,77 @@
 
 ### Kết luận
 Sử dụng Git để quản lý mã nguồn sẽ giúp bạn kiểm soát các thay đổi, khôi phục phiên bản cũ và làm việc hiệu quả hơn trong nhóm. Đừng quên thực hành tốt các thao tác với Git để tránh gặp phải các vấn đề thường gặp.
+---
+# Chương 6:ACM code conducts
 
-# Chương 6
+## Phần 1: Giới thiệu về An toàn trên Không gian số
+
+### **1. Tăng kết nối, giảm tin cậy**
+An toàn trên không gian số liên quan đến việc bảo vệ dữ liệu khi truyền tải qua Internet và bảo vệ hạ tầng Internet khỏi các mối đe dọa.
+
+### **2. Thách thức trong không gian số**
+- **An ninh mạng**
+- **Tội phạm mạng**
+- **Quyền riêng tư trên không gian mạng**
+
+### **3. Thực trạng an ninh mạng tại Việt Nam**
+- Việt Nam đứng đầu trong Đông Nam Á nhưng lại đứng cuối trong bảng xếp hạng chỉ số an ninh mạng toàn cầu.
+- Các mối đe dọa chủ yếu đến từ mã độc và phần mềm gián điệp.
+- Các cuộc tấn công mạng gia tăng và trở thành nguy cơ đáng lo ngại.
+
+### **4. Các hình thức tấn công mạng phổ biến**
+- **DDOS**
+- **Phishing**
+- **Web Hacking**
+- **Mã độc (Malware)**
+- **SPAM**
+- **SQL Injection**
+- **Botnet**
+- **Sniffing**
+
+### **5. Nguy cơ mất an toàn thông tin**
+- **Sự gia tăng tấn công mạng** và tội phạm mạng đang trở thành mối đe dọa phổ biến và nghiêm trọng.
+- Mất an toàn thông tin có thể ảnh hưởng lớn đến sự phát triển của nền kinh tế, xã hội.
+
+### **6. Cách bảo vệ trên không gian số**
+- Chỉ truy cập các trang web tin cậy.
+- Giữ bí mật thông tin cá nhân.
+- Cẩn thận khi sử dụng WIFI công cộng.
+- Cài đặt phần mềm diệt mã độc và sao lưu dữ liệu thường xuyên.
+
+### **7. Các hình thức mã độc phổ biến**
+- **Worm**, **Virus**, **Trojan Horse**, **Spyware** là các loại mã độc phổ biến và nguy hiểm.
+- **Mã độc Stuxnet** là một ví dụ điển hình, gây thiệt hại lớn cho hệ thống máy li tâm của Iran, sử dụng nhiều lỗ hổng bảo mật và phương thức tấn công tinh vi.
+
+## Phần 2: Đạo đức máy tính
+
+### **1. Khái niệm Đạo đức máy tính**
+Đạo đức máy tính nghiên cứu về các nguyên tắc đạo đức liên quan đến việc sử dụng máy tính và công nghệ thông tin, tập trung vào các mối quan hệ giữa con người, hệ thống máy tính và dữ liệu.
+
+### **2. Mục đích của việc học đạo đức máy tính**
+- Hiểu ảnh hưởng của máy tính đối với con người và xã hội.
+- Biết cách giải quyết các vấn đề đạo đức nghề nghiệp trong ngành công nghệ thông tin.
+- Trở thành một người làm công nghệ thông tin có trách nhiệm.
+
+### **3. Các vấn đề đạo đức trong ngành công nghệ thông tin**
+- Trách nhiệm nghề nghiệp, bảo vệ dữ liệu, quyền riêng tư, sở hữu trí tuệ, và bảo mật.
+- Vi phạm bản quyền phần mềm, tội phạm máy tính, tấn công mạng, và bắt nạt trên mạng.
+
+### **4. Đạo đức cho người sử dụng máy tính**
+- Không sử dụng máy tính để làm hại người khác hoặc ăn cắp thông tin.
+- Không sao chép phần mềm trái phép và tôn trọng quyền riêng tư của người khác trên không gian mạng.
+
+### **5. Đạo đức nghề nghiệp đối với chuyên gia máy tính**
+- Là chuyên gia trong lĩnh vực máy tính, hiểu biết khách hàng và sản phẩm ảnh hưởng đến xã hội.
+- Tuân thủ chuẩn mực nghề nghiệp, cập nhật kiến thức công nghệ mới, và đào tạo các nhóm đối tượng khác.
+
+### **6. Các câu hỏi thực hành**
+- **Câu hỏi 1**: Đạo đức máy tính là gì?
+- **Câu hỏi 2**: Viết mã lệnh làm ảnh hưởng đến dữ liệu hệ thống có vi phạm đạo đức máy tính không?
+
+## Kết luận
+An toàn trên không gian số và đạo đức máy tính là hai yếu tố không thể tách rời trong việc phát triển và bảo vệ các hệ thống công nghệ thông tin. Khi kết nối mạng gia tăng, nguy cơ mất an toàn thông tin và các hành vi xâm phạm đạo đức cũng tăng theo, đe dọa đến an ninh và sự phát triển của xã hội. Do đó, việc hiểu và thực hành đúng các nguyên tắc đạo đức trong công nghệ thông tin là rất quan trọng.
+
 ---
 # Chương 7: Giới thiệu tổng quan về WordPress
 
