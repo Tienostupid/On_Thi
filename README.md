@@ -375,9 +375,6 @@ An toàn trên không gian số liên quan đến việc bảo vệ dữ liệu 
 - Là chuyên gia trong lĩnh vực máy tính, hiểu biết khách hàng và sản phẩm ảnh hưởng đến xã hội.
 - Tuân thủ chuẩn mực nghề nghiệp, cập nhật kiến thức công nghệ mới, và đào tạo các nhóm đối tượng khác.
 
-### **6. Các câu hỏi thực hành**
-- **Câu hỏi 1**: Đạo đức máy tính là gì?
-- **Câu hỏi 2**: Viết mã lệnh làm ảnh hưởng đến dữ liệu hệ thống có vi phạm đạo đức máy tính không?
 
 ## Kết luận
 An toàn trên không gian số và đạo đức máy tính là hai yếu tố không thể tách rời trong việc phát triển và bảo vệ các hệ thống công nghệ thông tin. Khi kết nối mạng gia tăng, nguy cơ mất an toàn thông tin và các hành vi xâm phạm đạo đức cũng tăng theo, đe dọa đến an ninh và sự phát triển của xã hội. Do đó, việc hiểu và thực hành đúng các nguyên tắc đạo đức trong công nghệ thông tin là rất quan trọng.
